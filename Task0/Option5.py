@@ -10,7 +10,7 @@ def result(a, b):
     elif a < -2:
         print('Корень из отрицательного числа')
     elif b < a:
-        print('y1 = ', y := ((a + b) / b ** 2) - a)
+        print('y1 = ', (a + b) / b ** 2 - a)
     elif b >= a > 0:
         print('y2 = ', math.sin(a) + math.cos(b))
     elif b >= a <= 0:
