@@ -7,7 +7,7 @@ import math
 def result(a, b):
     if b == 0:
         print('Деление на 0')
-    elif a < -2:
+    elif 3 * a + b < 0:
         print('Корень из отрицательного числа')
     elif b < a:
         print('y1 = ', (a + b) / b ** 2 - a)
